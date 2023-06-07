@@ -6,6 +6,8 @@ import json
 
 import random
 
+#Нижче ми створюємо бота
+
 intents = disnake.Intents.all()
 
 bot = commands.Bot(command_prefix="your_prefix", intents=intents)
@@ -14,7 +16,7 @@ bot = commands.Bot(command_prefix="your_prefix", intents=intents)
 
 async def on_ready():
 
-  print("Bot is ready!")
+  print("Bot is ready!") #Це говорить, що бот онлайн
 
 @bot.slash_command(description="сказати від імені бота")
 
