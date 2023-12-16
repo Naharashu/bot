@@ -1,9 +1,5 @@
 import disnake
-
 from disnake.ext import commands
-
-import json
-
 import random
 
 #Нижче ми створюємо бота
